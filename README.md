@@ -6,7 +6,7 @@ Decentralized protocols are in constant evolution from the moment they are publi
 Ultimately, governance contracts tend behave like multisignature wallets with votes weighted by token balances of the voters.
 
 
-## A proposal is an Blockchain transaction: an address or list of addresses, and a calldata or list of calldatas. The community (holders of tokens that give them the right to vote), propose Ethereum transactions and based on the outcome of the vote, the transaction is executed on chain, or defeated if it doesn’t pass the election.
+## A proposal is an Blockchain transaction: an address or list of addresses, and a calldata or list of calldatas. The community (holders of tokens that give them the right to vote), propose Hedera transactions and based on the outcome of the vote, the transaction is executed on chain, or defeated if it doesn’t pass the election.
 
 
 For actions that are not done on chain (such as changing the legal license of a piece of software), a message granting the rights is simply signed.
@@ -27,7 +27,7 @@ Under the hood, a proposal is usually a solidity struct with some flags about it
 
 
 ## Vote
-Unsurprisingly, a vote is an ethereum transaction where the voter votes for or against a proposal. The vote is usually weighed by the amount of tokens the address held at the relevant snapshot.
+Unsurprisingly, a vote is an Hedera transaction where the voter votes for or against a proposal. The vote is usually weighed by the amount of tokens the address held at the relevant snapshot.
 
 
 ## Quorum
